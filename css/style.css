@@ -94,7 +94,7 @@ p {
     padding: 25px;
 }
 
-.placeholder {
+.theProblem {
     background-color: #33808F;
     color: white;
     text-align: center;
@@ -103,7 +103,7 @@ p {
     height: 400px;
 }
 
-.placeholder p {
+.theProblem p {
     margin: 0;
 
 }
@@ -145,6 +145,7 @@ footer ul {
     font-family: 'Mulish', sans-serif;
     color: white;
     text-align: center;
+    vertical-align: center;
     font-size: 16px;
     font-weight: 800;
     line-height: 20px;

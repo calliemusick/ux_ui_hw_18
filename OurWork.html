@@ -3,15 +3,19 @@
 
     <head>
         <title>Street Medicine Kansas City - Our Work Page</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/OWstyle.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap" rel="stylesheet">
     </head>
 
+    <!-- Another Interior Page Section Constructed using CSS Grid -->
+
         <body>
-            <header>
-                <a href="index.html"><img src="images/Header-SMKC Horizontal Logo.png" alt="Street Medicine Kansas City Logo"></a>
-                <nav>
+            <header class="OWnavBar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/Header-SMKC Horizontal Logo.png" alt="Street Medicine Kansas City Logo"></a>
+                </div>
+                <nav class="OWnavLinks">
                     <ul class="topNavLinks">
                         <li><a href="OurWork.html">Our Work</a></li>
                         <li class="getInvolvedLi"><a href="getinvolved.asp">Get Involved</a><img src="images/Header-Down Arrow Icon.png" id="navArrow"></li>
@@ -21,15 +25,17 @@
                         <li><a href="contact.asp">Contact</a></li>
                     </ul>
                 </nav>
-                <button type="button" id="searchButton"><img src="images/Header-Search Icon.png"><br>Search</button>
-                <button type="button" class="blackButton">Donate</button>
+                <div class="navButtons">
+                    <button type="button" class="blackButton">Donate</button>
+                    <button type="button" id="searchButton"><img src="images/Header-Search Icon.png"><br>Search</button>
+                 </div>
             </header>
 
             <section class="ourWorkHeader">
                 <div class="ourWorkHeroImage">
                     <img src="images/ourWorkHero.png" alt="SMKC Community Center">
                 </div>
-                <div class=ourWorkTitle">
+                <div class="ourWorkTitle">
                     <img src="images/headerScribble.png">
                     <h2>Our Work</h2>
                 </div>
